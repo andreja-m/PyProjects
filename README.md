@@ -3,6 +3,7 @@ Collection of Small Python Projects
 
 All projects are done (mostly) without tutorials
 
+- blackhat_python       - projects from the book Black Hat Python, and book itself
 - basicCalculator.py    - as the name says, just basic functions: +, -, * and /
 - cliLogin.py           - most basic login form
 - fibonacci.py          - fibonaci calculator (with some help from web)
