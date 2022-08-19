@@ -15,7 +15,7 @@ def hexdump(src, lenght = 16, show = True):
 
 		printable = word.translate(HEX_FILTER)
 		hexa = ' '.join([f'{ord(c):02X}' for c in word])
-		hexwidth = length*3
+		hexwidth = lenght*3
 		results.append(f'{i:04x} {hexa:{hexwidth}} {printable}')
 	if show:
 		for line in results:
@@ -30,6 +30,9 @@ def receive_from(connection):
 	# might be aggressive if you’re proxying traffic 
 	# to other countries or over lossy networks, 
 	# so increase the timeout as necessary
+
+	# in other words
+	# you need to log in 5 seconds
 	
 	connection.settimeout(5)
 	try:
@@ -55,7 +58,7 @@ def response_handler(buffer):
 	return buffer
 
 def proxy_handler(client_socket, remote_host, remote_port, receive_first):
-	remote_socket= socket.socket(socket.AF_INET, socket.SOCKE_STREAM)
+	remote_socket= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	remote_socket.connect((remote_host, remote_port))
 
 	if receive_first:
@@ -89,7 +92,7 @@ def proxy_handler(client_socket, remote_host, remote_port, receive_first):
 
 		if not len(local_buffer) or not len(remote_buffer):
 			client_socket.close()
-			remote_buffer.close()
+			remote_socket.close()
 			print("[*] No more data. Closing connections.")
 			break
 
