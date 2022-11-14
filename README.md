@@ -10,3 +10,4 @@ All projects are done (mostly) without tutorials
 - scann.py              - a bit changed basic port scanner i found on web
 - tablez.py             - cli tables for python
 - timeCalc.py           - dispatch (truck) driving time calculator
+- personal_portfolio    - is a project i found on: https://realpython.com/get-started-with-django-1/
