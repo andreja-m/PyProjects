@@ -11,3 +11,5 @@ All projects are done (mostly) without tutorials
 - tablez.py             - cli tables for python
 - timeCalc.py           - dispatch (truck) driving time calculator
 - personal_portfolio    - is a project i found on: https://realpython.com/get-started-with-django-1/
+- keylogger             - is a project i found on: https://www.geeksforgeeks.org/design-a-keylogger-in-python/
+- history.py            - is script that extract all browser history
