@@ -14,3 +14,4 @@ All projects are done (mostly) without tutorials
 - keylogger             - is a project i found on: https://www.geeksforgeeks.org/design-a-keylogger-in-python/
 - history.py            - is script that extract all browser history
 - oop                   - just some Objest Oriented Programming practice and references
+- flask                 - basic 'Hello World' flask app
