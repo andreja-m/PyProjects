@@ -15,3 +15,4 @@ All projects are done (mostly) without tutorials
 - history.py            - is script that extract all browser history
 - oop                   - just some Objest Oriented Programming practice and references
 - flask                 - basic 'Hello World' flask app
+- pdb.py                - The Python Debugger examples
