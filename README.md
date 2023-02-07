@@ -16,3 +16,4 @@ All projects are done (mostly) without tutorials
 - oop                   - just some Objest Oriented Programming practice and references
 - flask                 - basic apps
 - pdb.py                - The Python Debugger examples
+- yt_yo_mp3.py          - yt downloader
