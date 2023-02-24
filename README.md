@@ -17,3 +17,4 @@ All projects are done (mostly) without tutorials
 - flask                 - basic apps
 - pdb.py                - The Python Debugger examples
 - yt_yo_mp3.py          - yt downloader
+- rikverc.py            - reverse order of the characters in string
