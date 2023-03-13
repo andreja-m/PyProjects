@@ -8,7 +8,7 @@ import datetime
 
 while True:
     os.system('rm -rf His && cp -r $HOME/.config/BraveSoftware/Brave-Browser/Default/History $HOME/browser_history/His')
-    conn = sqlite3.connect('Path/To/Db')
+    conn = sqlite3.connect('His')
     c = conn.cursor()
     his = c.execute('''SELECT url, title, last_visit_time FROM urls''')
 
