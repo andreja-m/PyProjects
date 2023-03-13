@@ -18,3 +18,4 @@ All projects are done (mostly) without tutorials
 - pdb.py                - The Python Debugger examples
 - yt_yo_mp3.py          - yt downloader
 - rikverc.py            - reverse order of the characters in string
+- my.py                 - my version of browser_history
