@@ -19,3 +19,4 @@ All projects are done (mostly) without tutorials
 - yt_yo_mp3.py          - yt downloader
 - rikverc.py            - reverse order of the characters in string
 - my.py                 - my version of browser_history
+- ftp_py                - simple ftp server and client that works in lan
