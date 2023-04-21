@@ -9,6 +9,3 @@ file = open("qwer.jpg", "rb")
 ftp.storbinary("STOR 1234.jpg", file)
 file.close()
 ftp.close()
-
-#shutil.move("keyz/1234.jpg", "..")
-
