@@ -20,3 +20,4 @@ All projects are done (mostly) without tutorials
 - rikverc.py            - reverse order of the characters in string
 - my.py                 - my version of browser_history
 - ftp_py                - simple ftp server and client that works in lan
+- guessing_game         - simple number guessing game from CLI
